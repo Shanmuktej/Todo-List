@@ -1,0 +1,9 @@
+.welcomeContainer{
+    background-color: red!important;
+    height: 200px;
+}
+.onActiveApp{
+    background-color: red!important;
+    height: 97vh;
+    transition: height 2s;
+}

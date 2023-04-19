@@ -1,0 +1,165 @@
+2022-12-28T10:48:41.076Z
+Path to project: "c:/Users/ANECHAND/Next Projects/todo_list"
+Using glob rule: "c:/Users/ANECHAND/Next Projects/todo_list/next-env.d.ts"
+And glob ignore rules: [
+  "c:/Users/ANECHAND/Next Projects/todo_list/node_modules/**/*"
+]
+Found source file: "c:/Users/ANECHAND/Next Projects/todo_list/next-env.d.ts"
+Using glob rule: "c:/Users/ANECHAND/Next Projects/todo_list/**/*.ts"
+And glob ignore rules: [
+  "c:/Users/ANECHAND/Next Projects/todo_list/node_modules/**/*"
+]
+Found source file: "c:/Users/ANECHAND/Next Projects/todo_list/next-env.d.ts"
+Found source file: "c:/Users/ANECHAND/Next Projects/todo_list/components/Todos/componentState.ts"
+Found source file: "c:/Users/ANECHAND/Next Projects/todo_list/pages/api/hello.ts"
+Using glob rule: "c:/Users/ANECHAND/Next Projects/todo_list/**/*.tsx"
+And glob ignore rules: [
+  "c:/Users/ANECHAND/Next Projects/todo_list/node_modules/**/*"
+]
+Found source file: "c:/Users/ANECHAND/Next Projects/todo_list/components/AppContainer.tsx"
+Found source file: "c:/Users/ANECHAND/Next Projects/todo_list/components/Todos/Filters.tsx"
+Found source file: "c:/Users/ANECHAND/Next Projects/todo_list/components/Todos/TodoForm.tsx"
+Found source file: "c:/Users/ANECHAND/Next Projects/todo_list/components/Todos/Todos.tsx"
+Found source file: "c:/Users/ANECHAND/Next Projects/todo_list/components/Todos/TodosApp.tsx"
+Found source file: "c:/Users/ANECHAND/Next Projects/todo_list/pages/index.tsx"
+Found source file: "c:/Users/ANECHAND/Next Projects/todo_list/pages/_app.tsx"
+Finding the sources took (21208ms)
+Parse file: "c:/Users/ANECHAND/Next Projects/todo_list/next-env.d.ts"
+Normalizing the content took (5ms)
+Found imports: 0 (4ms)
+Found exports: 0 (7ms)
+Parse file: "c:/Users/ANECHAND/Next Projects/todo_list/next-env.d.ts"
+Normalizing the content took (7ms)
+Found imports: 0 (7ms)
+Found exports: 0 (5ms)
+Parse file: "c:/Users/ANECHAND/Next Projects/todo_list/components/Todos/componentState.ts"
+Normalizing the content took (6ms)
+Found imports: 2 (6ms)
+Found exports: 2 (9ms)
+Parse file: "c:/Users/ANECHAND/Next Projects/todo_list/pages/api/hello.ts"
+Normalizing the content took (7ms)
+Found imports: 1 (8ms)
+Found exports: 1 (3ms)
+Parse file: "c:/Users/ANECHAND/Next Projects/todo_list/components/AppContainer.tsx"
+Normalizing the content took (8ms)
+Found imports: 4 (6ms)
+Found exports: 1 (6ms)
+Parse file: "c:/Users/ANECHAND/Next Projects/todo_list/components/Todos/Filters.tsx"
+Normalizing the content took (4ms)
+Found imports: 3 (5ms)
+Found exports: 3 (6ms)
+Parse file: "c:/Users/ANECHAND/Next Projects/todo_list/components/Todos/TodoForm.tsx"
+Normalizing the content took (4ms)
+Found imports: 7 (8ms)
+Found exports: 2 (4ms)
+Parse file: "c:/Users/ANECHAND/Next Projects/todo_list/components/Todos/Todos.tsx"
+Normalizing the content took (5ms)
+Found imports: 5 (7ms)
+Found exports: 7 (3ms)
+Parse file: "c:/Users/ANECHAND/Next Projects/todo_list/components/Todos/TodosApp.tsx"
+Normalizing the content took (6ms)
+Found imports: 4 (3ms)
+Found exports: 1 (4ms)
+Parse file: "c:/Users/ANECHAND/Next Projects/todo_list/pages/index.tsx"
+Normalizing the content took (5ms)
+Found imports: 3 (5ms)
+Found exports: 1 (3ms)
+Parse file: "c:/Users/ANECHAND/Next Projects/todo_list/pages/_app.tsx"
+Normalizing the content took (6ms)
+Found imports: 5 (5ms)
+Found exports: 1 (4ms)
+Parsing the files took (225ms)
+Processed files: 11 (60ms)
+Files having imports|exports: 9 (4ms)
+Total imports: 21 (6ms)
+Total exports: 19 (8ms)
+Analysed files: 9 (11ms)
+Not used exports: 5 (8ms)
+Found circular imports: 2 (9ms)
+Total ellapsed time (ms): 21550
+------------------------------------------------------------------------
+2023-01-23T12:37:49.302Z
+Path to project: "c:/Users/ANECHAND/Next Projects/todo_list"
+Using glob rule: "c:/Users/ANECHAND/Next Projects/todo_list/next-env.d.ts"
+And glob ignore rules: [
+  "c:/Users/ANECHAND/Next Projects/todo_list/node_modules/**/*"
+]
+Found source file: "c:/Users/ANECHAND/Next Projects/todo_list/next-env.d.ts"
+Using glob rule: "c:/Users/ANECHAND/Next Projects/todo_list/**/*.ts"
+And glob ignore rules: [
+  "c:/Users/ANECHAND/Next Projects/todo_list/node_modules/**/*"
+]
+Found source file: "c:/Users/ANECHAND/Next Projects/todo_list/next-env.d.ts"
+Found source file: "c:/Users/ANECHAND/Next Projects/todo_list/components/Todos/componentState.ts"
+Found source file: "c:/Users/ANECHAND/Next Projects/todo_list/pages/api/hello.ts"
+Using glob rule: "c:/Users/ANECHAND/Next Projects/todo_list/**/*.tsx"
+And glob ignore rules: [
+  "c:/Users/ANECHAND/Next Projects/todo_list/node_modules/**/*"
+]
+Found source file: "c:/Users/ANECHAND/Next Projects/todo_list/components/AppContainer.tsx"
+Found source file: "c:/Users/ANECHAND/Next Projects/todo_list/components/Porfolio/Portfolio.tsx"
+Found source file: "c:/Users/ANECHAND/Next Projects/todo_list/components/Todos/Filters.tsx"
+Found source file: "c:/Users/ANECHAND/Next Projects/todo_list/components/Todos/TodoForm.tsx"
+Found source file: "c:/Users/ANECHAND/Next Projects/todo_list/components/Todos/Todos.tsx"
+Found source file: "c:/Users/ANECHAND/Next Projects/todo_list/components/Todos/TodosApp.tsx"
+Found source file: "c:/Users/ANECHAND/Next Projects/todo_list/pages/index.tsx"
+Found source file: "c:/Users/ANECHAND/Next Projects/todo_list/pages/_app.tsx"
+Finding the sources took (25173ms)
+Parse file: "c:/Users/ANECHAND/Next Projects/todo_list/next-env.d.ts"
+Normalizing the content took (5ms)
+Found imports: 0 (5ms)
+Found exports: 0 (5ms)
+Parse file: "c:/Users/ANECHAND/Next Projects/todo_list/next-env.d.ts"
+Normalizing the content took (5ms)
+Found imports: 0 (5ms)
+Found exports: 0 (5ms)
+Parse file: "c:/Users/ANECHAND/Next Projects/todo_list/components/Todos/componentState.ts"
+Normalizing the content took (6ms)
+Found imports: 2 (6ms)
+Found exports: 2 (4ms)
+Parse file: "c:/Users/ANECHAND/Next Projects/todo_list/pages/api/hello.ts"
+Normalizing the content took (7ms)
+Found imports: 1 (5ms)
+Found exports: 1 (4ms)
+Parse file: "c:/Users/ANECHAND/Next Projects/todo_list/components/AppContainer.tsx"
+Normalizing the content took (5ms)
+Found imports: 5 (6ms)
+Found exports: 2 (6ms)
+Parse file: "c:/Users/ANECHAND/Next Projects/todo_list/components/Porfolio/Portfolio.tsx"
+Normalizing the content took (4ms)
+Found imports: 4 (4ms)
+Found exports: 1 (5ms)
+Parse file: "c:/Users/ANECHAND/Next Projects/todo_list/components/Todos/Filters.tsx"
+Normalizing the content took (4ms)
+Found imports: 3 (5ms)
+Found exports: 3 (3ms)
+Parse file: "c:/Users/ANECHAND/Next Projects/todo_list/components/Todos/TodoForm.tsx"
+Normalizing the content took (4ms)
+Found imports: 8 (5ms)
+Found exports: 2 (4ms)
+Parse file: "c:/Users/ANECHAND/Next Projects/todo_list/components/Todos/Todos.tsx"
+Normalizing the content took (4ms)
+Found imports: 6 (4ms)
+Found exports: 6 (5ms)
+Parse file: "c:/Users/ANECHAND/Next Projects/todo_list/components/Todos/TodosApp.tsx"
+Normalizing the content took (5ms)
+Found imports: 5 (4ms)
+Found exports: 1 (4ms)
+Parse file: "c:/Users/ANECHAND/Next Projects/todo_list/pages/index.tsx"
+Normalizing the content took (5ms)
+Found imports: 3 (5ms)
+Found exports: 1 (4ms)
+Parse file: "c:/Users/ANECHAND/Next Projects/todo_list/pages/_app.tsx"
+Normalizing the content took (6ms)
+Found imports: 6 (5ms)
+Found exports: 1 (4ms)
+Parsing the files took (228ms)
+Processed files: 12 (186ms)
+Files having imports|exports: 10 (5ms)
+Total imports: 25 (8ms)
+Total exports: 20 (7ms)
+Analysed files: 10 (11ms)
+Not used exports: 5 (11ms)
+Found circular imports: 5 (6ms)
+Total ellapsed time (ms): 25650
+------------------------------------------------------------------------
