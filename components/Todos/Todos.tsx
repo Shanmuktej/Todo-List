@@ -18,9 +18,38 @@ export type TodoType = {
 export const todos = signal<Array<TodoType>>([]);
 export const filteredTodos = signal<Array<TodoType>>([]);
 
+const today = new Date();
+const pastDay = new Date();
+const futureDay = new Date();
+pastDay.setDate(today.getDate() -1)
+futureDay.setDate(today.getDate() +1)
+const tutorialTodos: TodoType[] = [
+  {
+    id: -1,
+    createdDate: today.toLocaleString(),
+    title: "Todo - Present",
+    targetDate: today.toLocaleDateString(),
+    description: "Example of Present todo, use present filter",
+    },
+    {
+      id: -2,
+      createdDate: today.toLocaleString(),
+      title: "Todo - Past",
+      targetDate: pastDay.toLocaleDateString(),
+      description: "Example of Past todo, use past filter",
+    },
+    {
+      id: -3,
+      createdDate: today.toLocaleString(),
+      title: "Todo - Future",
+      targetDate: futureDay.toLocaleDateString(),
+      description: "Example of Future todo, use future filter",
+  },
+]; 
+
 export const setTodos = () => {
-  let localTodos = localStorage.getItem("todos") ?? "[]";
-  todos.value = JSON.parse(localTodos);
+  let localTodos = localStorage.getItem("todos")
+  todos.value = localTodos != null ? JSON.parse(localTodos) : tutorialTodos
 };
 
 export const setFilteredTodos = (filterType: FilterTypes) => {
@@ -87,9 +116,9 @@ const Todos = () => {
                   <span role="button" className="fs-5 mx-1" onClick={() => removeTodo(todo)} > 🗑 </span>
                 </div>
               </Card.Header>
-              <Card.Body className="overflow-hidden">
+              <Card.Body className="overflow-hidden position-relative">
                 <div>{todo.description}</div>
-                <div>
+                <div className="position-absolute bottom-0">
                   {todo.targetDate && (
                     <span className="fw-light" style={{ fontSize: "10px" }}>
                       Target: {todo.targetDate}
@@ -98,7 +127,7 @@ const Todos = () => {
                 </div>
               </Card.Body>
               <Card.Footer className="d-flex justify-content-between font-monospace bg-transparent">
-                <span className="fw-lighter" style={{ fontSize: "8px" }}>
+                <span className="fw-lighter" style={{ fontSize: "10px" }}>
                   {todo.modifiedDate
                     ? `Modified On:${todo.modifiedDate}`
                     : `Created On: ${todo.createdDate}`}

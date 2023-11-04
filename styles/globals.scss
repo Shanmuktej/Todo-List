@@ -90,7 +90,7 @@ body {
 
   .header {
     font-weight: 900;
-    font-size: 48px;
+    font-size: 36px;
     color: var(--font-color);
     text-shadow: 5px 5px 10px !important;
   }
@@ -118,8 +118,8 @@ body {
   min-width: "150px";
   max-width: "100%";
   box-shadow: 3px 3px 7px 3px;
-  min-height: 150px;
-  max-height: 150px;
+  min-height: 180px;
+  max-height: 180px;
 }
 
 .modal-content {
