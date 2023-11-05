@@ -10,9 +10,9 @@ export type TodoType = {
   id: number;
   title: string;
   description: string;
-  createdDate: string;
-  targetDate: string;
-  modifiedDate?: string;
+  createdDate: Date;
+  targetDate: Date;
+  modifiedDate?: Date;
 };
 // export const selectedTodo = signal<TodoType | null>(null);
 export const todos = signal<Array<TodoType>>([]);
@@ -25,24 +25,24 @@ pastDay.setDate(today.getDate() -1)
 futureDay.setDate(today.getDate() +1)
 const tutorialTodos: TodoType[] = [
   {
-    id: -1,
-    createdDate: today.toLocaleString(),
+    id: -2,
+    createdDate: today,
     title: "Todo - Present",
-    targetDate: today.toLocaleDateString(),
+    targetDate: today,
     description: "Example of Present todo, use present filter",
     },
     {
-      id: -2,
-      createdDate: today.toLocaleString(),
+      id: -1,
+      createdDate: today,
       title: "Todo - Past",
-      targetDate: pastDay.toLocaleDateString(),
+      targetDate: pastDay,
       description: "Example of Past todo, use past filter",
     },
     {
-      id: -3,
-      createdDate: today.toLocaleString(),
+      id: 0,
+      createdDate: today,
       title: "Todo - Future",
-      targetDate: futureDay.toLocaleDateString(),
+      targetDate: futureDay,
       description: "Example of Future todo, use future filter",
   },
 ]; 
@@ -121,7 +121,7 @@ const Todos = () => {
                 <div className="position-absolute bottom-0">
                   {todo.targetDate && (
                     <span className="fw-light" style={{ fontSize: "10px" }}>
-                      Target: {todo.targetDate}
+                      Target: {new Date(todo.targetDate).toLocaleDateString()}
                     </span>
                   )}
                 </div>
@@ -129,8 +129,8 @@ const Todos = () => {
               <Card.Footer className="d-flex justify-content-between font-monospace bg-transparent">
                 <span className="fw-lighter" style={{ fontSize: "10px" }}>
                   {todo.modifiedDate
-                    ? `Modified On:${todo.modifiedDate}`
-                    : `Created On: ${todo.createdDate}`}
+                    ? `Modified On: ${new Date(todo.modifiedDate).toLocaleString()}`
+                    : `Created On: ${new Date(todo.createdDate).toLocaleString()}`}
                 </span>
               </Card.Footer>
             </Card>

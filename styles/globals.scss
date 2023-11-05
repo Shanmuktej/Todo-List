@@ -13,21 +13,21 @@
   --btn-hover-font-color: var(--font-color);
 }
 
-[theme="Dark"] {
+[theme="Moon"] {
   --bg-color: black;
   --font-color: white;
   --secondary-bg-color: gray;
   --btn-color: #22333b;
 }
 
-[theme="Light Wood"] {
+[theme="Wood"] {
   --bg-color: #c6ac8f;
   --font-color: black;
   --secondary-bg-color: #eae0d5;
   --btn-color: #c6ac8f;
 }
 
-[theme="Light Green"] {
+[theme="Green"] {
   --bg-color: #a4c3b2;
   --font-color: black;
   --secondary-bg-color: #cce3de;
@@ -90,14 +90,14 @@ body {
 
   .header {
     font-weight: 900;
-    font-size: 36px;
+    font-size: 200%;
     color: var(--font-color);
     text-shadow: 5px 5px 10px !important;
   }
 
   #themes {
     font-weight: 900;
-    font-size: 28px;
+    font-size: 150%;
     color: var(--font-color);
     text-shadow: 5px 5px 10px !important;
     padding-left: 30px;
@@ -126,4 +126,7 @@ body {
   background-color: var(--popup-color) !important;
   color: var(--font-color) !important;
   outline-color: var(--popup-outline) !important;
+}
+.dropdown-menu[data-bs-popper] {
+  left: -10%!important;
 }

@@ -19,7 +19,6 @@ function closeNewTodo() {
 }
 
 const TodosApp = () => {
-
   return (
     <>
       <Container className="row m-0 p-0" fluid style={{ width: "-webkit-fill-available" }} >

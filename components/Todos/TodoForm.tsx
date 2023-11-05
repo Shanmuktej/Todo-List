@@ -27,14 +27,15 @@ const TodoForm = (props: { show: boolean; onHide: any }) => {
 
   const createOrEditTodo = (data: TodoType) => {
     if (selectedTodo.value != null) {
-      data.modifiedDate = new Date().toLocaleString();
+      data.modifiedDate = new Date();
+      data.targetDate = new Date(data.targetDate)
       todos.value[
         todos.value.findIndex((todo) => todo.id === selectedTodo.value?.id)
       ] = data;
     } else {
       Object.assign(data, {
         id: (todos.value.at(-1)?.id ?? 0) + 1,
-        createdDate: new Date().toLocaleString(),
+        createdDate: new Date(),
       });
       todos.value.push(data);
     }
